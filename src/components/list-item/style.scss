@@ -1,0 +1,18 @@
+.list-group-item {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.form-check-input {
+	cursor: pointer;
+
+	&:checked {
+		opacity: .5;
+
+		& + label {
+			opacity: .5;
+		}
+	}
+}
